@@ -27,11 +27,16 @@ namespace DataStructures
                         linkedList.Display();
                         break;
                     case 3:
+                        linkedList.Add(56);
+                        linkedList.Add(70);
+                        linkedList.InsertAtParticularPosition(1, 30);
+                        linkedList.Display();
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
             }
-
         }
     }
 }
