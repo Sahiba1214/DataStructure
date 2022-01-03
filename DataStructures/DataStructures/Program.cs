@@ -33,6 +33,14 @@ namespace DataStructures
                         linkedList.Display();
                         break;
                     case 4:
+                        linkedList.Add(56);
+                        linkedList.Add(30);
+                        linkedList.Add(70);
+                        linkedList.RemoveFirstNode();
+                        Console.WriteLine("After removing the first node of Linked List : ");
+                        linkedList.Display();
+                        break;
+                    case 5:
                         flag = false;
                         break;
                 }
