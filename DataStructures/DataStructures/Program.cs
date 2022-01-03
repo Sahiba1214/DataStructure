@@ -7,11 +7,17 @@ namespace DataStructures
         static void Main(string[] args)
         {
             LinkedList linkedList = new LinkedList();
+            Stack stack = new Stack();
+            Queue queue = new Queue();
+
             Console.WriteLine("Welcome to Data Structures Programs");
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter the Program to be executed : \n 1. Create Simple Linked List \n 2. Exit");
+                Console.WriteLine("Enter the Program to be executed : \n 1. Create Simple Linked List \n 2. Add in Reverse Order \n 3. Insert at Particular Position \n 4. Remove First node \n 5. Remove Last Node \n 6. Stack Push \n 7. Stack Peek and Pop \n 8. Exit ");
+
+
+                
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -49,6 +55,27 @@ namespace DataStructures
                         linkedList.Display();
                         break;
                     case 6:
+                        stack.Push(70);
+                        stack.Push(30);
+                        stack.Push(56);
+                        stack.Display();
+                        break;
+                    case 7:
+                        stack.Push(70);
+                        stack.Push(30);
+                        stack.Push(56);
+                        stack.Display();
+                        stack.Peek();
+                        stack.Pop();
+                        stack.Display();
+                        stack.Peek();
+                        stack.Pop();
+                        stack.Display();
+                        stack.Peek();
+                        stack.Pop();
+                        stack.Display();
+                        break;
+                    case 8:
                         flag = false;
                         break;
                 }
