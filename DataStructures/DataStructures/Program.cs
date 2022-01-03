@@ -21,6 +21,12 @@ namespace DataStructures
                         linkedList.Add(70);
                         break;
                     case 2:
+                        linkedList.AddInReverseOrder(70);
+                        linkedList.AddInReverseOrder(30);
+                        linkedList.AddInReverseOrder(56);
+                        linkedList.Display();
+                        break;
+                    case 3:
                         flag = false;
                         break;
                 }
