@@ -82,6 +82,18 @@ namespace DataStructures
                         queue.Display();
                         break;
                     case 9:
+                        queue.Enqueue(56);
+                        queue.Enqueue(30);
+                        queue.Enqueue(70);
+                        queue.Display();
+                        queue.Dequeue();
+                        queue.Display();
+                        queue.Dequeue();
+                        queue.Display();
+                        queue.Dequeue();
+                        queue.Display();
+                        break;
+                    case 10:
                         flag = false;
                         break;
                 }
