@@ -41,6 +41,14 @@ namespace DataStructures
                         linkedList.Display();
                         break;
                     case 5:
+                        linkedList.Add(56);
+                        linkedList.Add(30);
+                        linkedList.Add(70);
+                        linkedList.RemoveLastNode();
+                        Console.WriteLine("After removing the last node of Linked List : ");
+                        linkedList.Display();
+                        break;
+                    case 6:
                         flag = false;
                         break;
                 }
